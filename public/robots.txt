@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://himagingellyoil.com/sitemap.xml
+
+# Block system folders (optional)
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /private/
+
+# Allow CSS & JS
+Allow: /*.css$
+Allow: /*.js$
