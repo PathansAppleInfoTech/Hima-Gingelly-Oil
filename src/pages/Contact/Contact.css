@@ -815,7 +815,16 @@
   overflow: hidden;
   box-shadow: var(--shadow-soft);
   aspect-ratio: 4/5;
-  /* border: 6px solid var(--paper); */
+  border: 6px solid transparent;
+
+  background:
+    linear-gradient(var(--cream), var(--cream)) padding-box,
+    linear-gradient(135deg,
+      var(--forest),
+      var(--gold),
+      var(--forest-deep),
+      var(--gold-light),
+      var(--forest)) border-box;
 }
 
 .owner-photo-frame img {
@@ -900,7 +909,7 @@
   }
 
   .owner-photo-frame {
-    max-width: 260px;
+    /* max-width: 260px; */
     margin: 0 auto;
     aspect-ratio: 1 / 1;
   }
@@ -928,6 +937,6 @@
   }
 
   .owner-photo-frame {
-    max-width: 200px;
+    /* max-width: 200px; */
   }
 }
